@@ -13,11 +13,11 @@ print("The sentence is in uppercase: " + sentence_upper)
 sentence_lower = sentence.lower()
 print("The sentence is in lowercase " + sentence_lower)
 
-sentence_strip = sentence.strip()
+sentence_strip = sentence.strip("")
 print("The sentence is stripped of spaces: " + sentence_strip)
 
 sentence_replace = sentence.replace("s","z")
-print("The sentence will replacesz something: " + sentence_replace)
+print("The sentence will replace something: " + sentence_replace)
 
 sentence_split = sentence.split()
 print("The sentence will split: " + str(sentence_split))
